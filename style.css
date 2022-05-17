@@ -1,0 +1,45 @@
+body {
+    background-color: hsl(212, 45%, 89%);
+    font-size: 15px;
+    font-family: 'Big Shoulders Display', cursive;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+#contenaire {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    margin: 5em auto;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    max-width: 1440px;
+    min-width: 375px;
+}
+
+#qrcode {
+    margin: 15px;
+    border-radius: 10px;
+    
+}
+
+footer {
+    margin: 15px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+footer>h1 {
+    color:  hsl(218, 44%, 22%);
+    font-weight: bold;
+    padding-bottom: 1.2em;
+}
+
+footer>p {
+    color: hsl(220, 15%, 55%);
+    padding-bottom: 1em;
+    
+}
+
